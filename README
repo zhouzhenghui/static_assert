@@ -1,0 +1,12 @@
+Compile-time assertion for standard C
+=====================================
+
+Assert a compile time dependency by static definition or expressions.
+
+- STATIC_ASSERT(cond, msg) - assert a compile time dependency by static definition.
+- STATIC_ASSERT_OR_TYPE(cond, msg) - assert a compile time dependency, as a struct type.
+- STATIC_ASSERT_OR_ZERO(cond, msg) - assert a compile time dependency, as an expression: its value is "0".
+
+Two arguments are passed in:
+  - cond: the compile-time condition which must be true.
+  - msg: a valid identifier which may be displayed as the error message.

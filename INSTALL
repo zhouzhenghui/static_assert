@@ -1,0 +1,12 @@
+Build
+=====
+In general you can build:
+      ./configure
+
+Use 'make' to build the library and 'make doxygen-doc'
+to build API documents. 'make check" will build test programs
+and 'make install' will copy all required headers and binary files
+to the install directory.
+
+For information on configuration options see:
+# ./configure --help
