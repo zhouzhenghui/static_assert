@@ -26,6 +26,7 @@ $(DX_CONFIG): Doxyfile.in Doxyfile
 	chmod g-w,u-w $@
 
 docs: $(DOCDIR)/$(PACKAGE).tag
+doc/html: docs
 
 #distclean-local:
 
