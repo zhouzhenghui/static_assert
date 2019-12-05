@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: install doxygen
-      run: sudo apt install doxygen
+      run: sudo apt-get install doxygen
     - name: autoconf
       run: ./autogen.sh
     - name: configure
